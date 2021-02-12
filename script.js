@@ -24,7 +24,7 @@ withdrawBtn.addEventListener('click', function () {
 });
 
 const calculationHandler = function (id, depositNumValue) {
-    const deposit = document.getElementById(id);
-    const depositText = parseFloat(deposit.innerText);
-    deposit.innerText = depositNumValue + depositText;
+    const totalCalculation = document.getElementById(id);
+    const totalCalculationText = parseFloat(totalCalculation.innerText);
+    totalCalculation.innerText = depositNumValue + totalCalculationText;
 };
